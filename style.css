@@ -1,0 +1,145 @@
+  body{ 
+  background-image:url("back.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: verdana;
+  font-size: 30px;
+  text-align: center;
+  color:burlywood;
+ 
+  }
+
+  .picture1{
+    display: inline-block;
+    width: 290px;
+    margin-right: 1px;
+    border-radius: 40px;
+    
+  }
+
+  .above-title{
+    font-family: active;
+    font-weight:bold;
+    font-size: 79px;
+  }
+  
+  
+  .login-button{
+    background-color:blue;
+    color:white;
+    border:none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 28px;
+    margin-right 10px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor:pointer;
+    vertical-align: top;
+    transition: opacity 0.1s;
+  }
+     .login-button:hover {
+      opacity: 0.7;
+      box-shadow:5px 10px 10px rgba(101, 21, 1, 0.14);
+     }
+     .login-button:active{
+      opacity: 0.3;
+      background-color: blue; 
+      color: white;
+       transition: opacity 0.15s; 
+       
+     }
+
+
+
+
+  .sign-in-button{
+    background-color:rgb(118, 5, 5);
+    color:white;
+    border: none;
+    border-radius: 4px;
+    padding-top:16px;
+    padding-bottom: 16px;
+    padding-left:30px;
+    padding-right: 30px;
+    border:none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    vertical-align: top;
+    transition: opacity 0.15s;
+   }
+
+   .sign-in-button:hover{
+    opacity: 0.7;
+   }
+   .sign-in-button:active{
+    opacity:0.4;
+    transition: opacity 0.15s;
+
+   }
+
+  .subscribe-button{
+    background-color:aqua;
+    color:black;
+    vertical-align: top;
+    cursor:pointer;
+     padding-top:16px;
+    padding-bottom: 16px;
+    padding-left:30px;
+    padding-right: 30px;
+    border:none;
+    border-radius:4px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 10px;
+    transition:background-color 1s;
+  } 
+  .subscribe-button:hover{
+    background-color:rgb(187, 92, 231);
+  }
+  .subscribe-button:active{
+    background-color:rgb(120, 5, 173);
+     transition: background-color 0.15s;
+  }
+
+
+
+  .sign-out-button{
+    background-color:rgb(58, 58, 229);
+    color:white;
+    border:none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 28px;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: top;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 1s ;
+  }
+
+  .sign-out-button:hover{
+    background-color:rgb(41, 186, 239);
+  }
+  .sign-out-button:active{
+    opacity: 0.6;
+  }
+
+
+
+  
+
+
+
+
+
+  
+ 
